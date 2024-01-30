@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    background-color: #343434;
+    height: 55vh;
+    width: 40vh;
+    color: white;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.Upbox{
+    position: absolute;
+    height: 30vh;
+    width: 40vh;
+    top: 4vh;
+    color: white;
+    padding: 2vh;
+    /* background-color: aqua; */
+    font-size: 40px;
+}
+.Downbox{
+    position: absolute;
+    background-color: #1B1B1B;
+    height: 42vh;
+    width: 40vh;
+    top: 28vh;
+}
+.btn{
+    width: 6vh;
+    height: 6vh;
+    justify-content: space-between;
+    margin-left:3vh;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color:#343434 ;
+}
+.row1{
+    margin-top: 2vh;
+    /* background-color: aqua; */
+}
+.row2{
+    margin-top: 2vh;
+}
+.row3{
+    margin-top: 2vh;
+}
+.row4{
+    margin-top: 2vh;
+    /* background-color: aqua; */
+    width: 29vh;
+}
+.row5{
+    position: relative;
+    /* background-color: olive; */
+    margin-top: 2vh;
+}
+.btn4{
+    position: absolute;
+    height: 14vh;
+    left: 29vh;
+    bottom: 2vh;
+    font-size: 25px;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,251,252,1) 100%);
+}
+.btn2{
+    background-color: #1F305E;
+}
+@media (max-width: 390px){
+    .container{
+        position: relative;
+        margin-top: 15vh;
+        margin-left: 4vh;
+    }
+    .btn{
+        font-size: 23px;
+    }
+}
+/* <complete></complete> */
